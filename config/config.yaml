@@ -1,5 +1,7 @@
 vector_db:
-  index_name: "trade-agent"
+  index_name: "trade-agent-1"
+  dimension : 3072
+  metric : "cosine"
 
 retriever:
   top_k: 3
@@ -7,7 +9,7 @@ retriever:
 
 embedding_model:
   provider: "google"
-  model_name: "models/text-embedding-004"
+  model_name: "models/gemini-embedding-2-preview"
 
 llm:
   google:
