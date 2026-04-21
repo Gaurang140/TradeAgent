@@ -1,4 +1,4 @@
-from setuptools import find_packages,setup
+from setuptools import find_packages,setup # pyright: ignore[reportMissingModuleSource]
 
 setup(name="TradeAgent",
        version="0.0.1",
